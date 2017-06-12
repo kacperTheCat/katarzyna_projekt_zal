@@ -1,0 +1,801 @@
+@media screen and (max-device-width:5000px) {
+    .non_hide_mobile_text {
+        display: none;
+    }
+}
+
+@media screen and (max-device-width:1770px) {
+    nav{
+        background-color: #000;
+    }
+    .galery {
+	justify-content: center;
+}
+    nav .logo {
+        font-size: 1.6em;
+    }
+    nav .logo h6 {
+        font-size: .7em;
+    }
+    nav .logo {
+        font-size: 1.6em;
+    }
+    .next_part i {
+        position: static;
+    }
+  /*  .about_me img{
+        width: 400px;
+        height: 469px;
+	
+}*/
+    .coop_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .coop h1 {
+        margin: 0;
+    }
+    a .child_coop_container {
+        width: 375px;
+        height: 350px;
+        /*zminić pole klikalne*/
+    }
+    #coop_img1 {
+        width: 360px;
+        height: 80px;
+    }
+    #coop_img2 {
+        width: 100px;
+        height: 106px;
+    }
+}
+
+
+}
+
+/*zmniejszyć loga*/
+@media screen and (max-device-width: 1100px) {
+    .main_nav ul a {
+        margin: 0;
+        padding: 1.1em;
+        float: inherit;
+        width: 6em;
+        font-size: .9em;
+    }
+    
+    .main_nav ul {
+        margin: 0;
+    }
+    
+    nav .logo {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul.tabs {
+        padding: 0;
+    }
+    
+    ul.list-inline {
+        padding: 0;
+    }
+    /**/
+    
+    .about {
+        font-size: 1em;
+    }
+    
+    .about_container img {
+        margin: 0;
+        padding: 0;
+        width: 522px !important;
+        height: 723px !important;
+        
+        /*zmienić na em*/
+    }
+    .lb-caption{
+    font-size: 20px !important;
+}
+}
+
+@media screen and (max-width:1025px){
+    /*.about{
+        font-size: 1em;
+    }
+    .about_container img {
+    box-shadow: 1px 1px 3px rgba(100, 100, 100, 0.5);
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 350px;*/
+     .coop_container {
+        flex-direction: column;
+    }
+    
+    .child_coop_container {
+        margin: 0;
+    }
+    
+    a .child_coop_container {
+        margin: 2em 0 !important;
+        width: 320px;
+    }
+    
+    #coop_img1 {
+        width: 90%;
+        height: 80px;
+    }
+    
+    #coop_img2 {
+        width: 100px;
+        height: 106px;
+    }
+    
+   
+}
+@media only screen and (max-device-width: 880px) {
+    video {
+        display: none;
+    }
+     .main_nav ul li:first-child{
+        display: none !important;
+    }
+    .about {
+        display: none;
+    }
+    
+    nav {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        position: static !important;
+    }
+    
+    nav .logo {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav .logo h4 {
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav .logo h6 {
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav ul li {
+        width: 100%;
+    }
+    
+    nav ul li a {
+        margin: 0;
+        padding: 1em 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2em;
+        width: 100% !important;
+        border-bottom: 1px solid #fff;
+        font-size: 1em;
+    }
+    
+    .galery {
+        margin: 0;
+    }
+   
+    .about_container p {
+        width: 90%;
+    }
+    
+    .coop_container {
+        flex-direction: column;
+    }
+    
+    .child_coop_container {
+        margin: 0;
+    }
+    
+    a .child_coop_container {
+        margin: 2em 0 !important;
+        width: 320px;
+    }
+    
+    #coop_img1 {
+        width: 90%;
+        height: 80px;
+    }
+    
+    #coop_img2 {
+        width: 100px;
+        height: 106px;
+    }
+    
+    .contact .test_div {
+        border: 1px solid #fff;
+        width: 70%;
+        height: 500px;
+    }
+}@media screen and (max-device-width: 480px){
+    /*  taaaaaaaaaaaaaaa małaaaaaaaaaaaaa rozdziałkaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+    
+    nav .logo h3 {
+        font-size: 2.5em;
+    }
+    
+    nav .logo h6 {
+        font-size: 2em !important;
+    }
+    
+    nav ul li a {
+        font-size: 2em !important;
+    }
+     .galery .panel img{
+        margin: 0;
+    }
+    .galery_btn {
+        width: 250px;
+        height: 100px;
+    }
+    
+    li.galery_btn {
+        font-size: 2em;
+    }
+    
+    .panel li {
+        display: none;
+    }
+    
+    .list-inline {
+        justify-content: center !important;
+        align-content: center;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    
+    .panel li.non_hide_mobile {
+        display: block;
+        width: 40%;
+        height: 40%;
+    }
+    
+    .non_hide_mobile_text {
+        display: block !important;
+        margin-top: 1em;
+    }
+    
+    .panel img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .next_part {
+        display: none;
+    }
+    
+    .about_container p {
+        font-size: 2em;
+    }
+    
+    .about_me img {
+        width: 522px !important;
+        height: 723px !important;
+    }
+    
+    a .child_coop_container {
+        width: 562px !important;
+        height: 525px !important;
+        font-size: 1.8em;
+    }
+    
+    #coop_img1 {
+        width: 525px !important;
+        height: 120px !important;
+        /* pełna profeska , jeszcze kilka importantów i będzie rekrd świata*/
+    }
+    
+    #coop_img2 {
+        width: 150px !important;
+        height: 159px !important;
+    }
+    
+    i {
+        font-size: 2.5em !important;
+    }
+    
+    .fa-chevron-down:before {
+        font-size: 2em !important;
+    }
+}
+@media only screen and (max-device-width: 480px) and (-webkit-device-pixel-ratio: 2){
+    /*  taaaaaaaaaaaaaaa małaaaaaaaaaaaaa rozdziałkaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+    
+    nav .logo h3 {
+        font-size: 2.5em;
+    }
+    
+    nav .logo h6 {
+        font-size: 2em !important;
+    }
+    
+    nav ul li a {
+        font-size: 2em !important;
+    }
+    
+    .galery_btn {
+        width: 250px;
+        height: 100px;
+    }
+    
+    li.galery_btn {
+        font-size: 2em;
+    }
+    
+    .panel li {
+        display: none;
+    }
+    
+    .list-inline {
+        justify-content: center !important;
+        align-content: center;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    
+    .panel li.non_hide_mobile {
+        display: block;
+        width: 40%;
+        height: 40%;
+    }
+    
+    .non_hide_mobile_text {
+        display: block !important;
+    }
+    
+    .panel img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .next_part {
+        display: none;
+    }
+    
+    .about_container p {
+        font-size: 2em;
+    }
+    
+  /*  .about_me img {
+        width: 480px !important;
+        height: 562px !important;
+    }*/
+    
+    a .child_coop_container {
+        width: 562px !important;
+        height: 525px !important;
+        font-size: 1.8em;
+    }
+    
+    #coop_img1 {
+        width: 525px !important;
+        height: 120px !important;
+        /* pełna profeska , jeszcze kilka importantów i będzie rekrd świata*/
+    }
+    
+    #coop_img2 {
+        width: 150px !important;
+        height: 159px !important;
+    }
+    
+    i {
+        font-size: 2.5em !important;
+    }
+    
+    .fa-chevron-down:before {
+        font-size: 2em !important;
+    }
+}
+@media only screen and (max-device-width: 360px) and (-webkit-device-pixel-ratio: 3) {
+    /*  taaaaaaaaaaaaaaa małaaaaaaaaaaaaa rozdziałkaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+    
+    nav .logo h3 {
+        font-size: 2.5em;
+    }
+    
+    nav .logo h6 {
+        font-size: 2em !important;
+    }
+    
+    nav ul li a {
+        font-size: 2em !important;
+    }
+    
+    .galery_btn {
+        width: 250px;
+        height: 100px;
+    }
+    
+    li.galery_btn {
+        font-size: 2em;
+    }
+    
+    .panel li {
+        display: none;
+    }
+    
+    .list-inline {
+        justify-content: center !important;
+        align-content: center;
+        flex-direction: column !important;
+        width: 100%;
+    }
+    
+    .panel li.non_hide_mobile {
+        display: block;
+        width: 40%;
+        height: 40%;
+    }
+    
+    .non_hide_mobile_text {
+        display: block !important;
+    }
+    
+    .panel img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .next_part {
+        display: none;
+    }
+    
+    .about_container p {
+        font-size: 2em;
+    }
+    
+ /*   .about_me img {
+        width: 480px !important;
+        height: 562px !important;
+    }*/
+    
+    a .child_coop_container {
+        width: 562px !important;
+        height: 525px !important;
+        font-size: 1.8em;
+    }
+    
+    #coop_img1 {
+        width: 525px !important;
+        height: 120px !important;
+        /* pełna profeska , jeszcze kilka importantów i będzie rekrd świata*/
+    }
+    
+    #coop_img2 {
+        width: 150px !important;
+        height: 159px !important;
+    }
+    
+    i {
+        font-size: 2.5em !important;
+    }
+    
+    .fa-chevron-down:before {
+        font-size: 2em !important;
+    }
+}
+@media only screen and (max-device-width: 736px) and (orientation: landscape) {
+    video {
+        display: none;
+    }
+    
+    .about {
+        display: none;
+    }
+    
+    nav {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        position: static !important;
+    }
+    
+    nav .logo {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav .logo h3 {
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav .logo h6 {
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav ul li {
+        width: 100%;
+    }
+    
+    nav ul li a {
+        margin: 0;
+        padding: 1em 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2em;
+        border-bottom: 1px solid #fff;
+        font-size: 1em;
+        width: 100% !important;
+    }
+    
+    .galery {
+        margin: 0;
+    }
+    
+    .about_container p {
+        width: 90%;
+    }
+    
+    .coop_container {
+        flex-direction: column;
+    }
+    
+    .child_coop_container {
+        margin: 0;
+    }
+    
+    a .child_coop_container {
+        margin: 2em 0 !important;
+        width: 320px;
+    }
+    
+    #coop_img1 {
+        width: 90%;
+        height: 80px;
+    }
+    
+    #coop_img2 {
+        width: 100px;
+        height: 106px;
+    }
+    
+    .contact .test_div {
+        border: 1px solid #fff;
+        width: 70%;
+        height: 500px;
+    }
+}
+
+/* szerokości deskopowe*/
+@media screen and (max-width:1770px) {
+  /*  nav .logo {
+        font-size: 1.6em;
+    }*/
+    
+    nav .logo h6 {
+        font-size: .7em;
+    }
+    
+    nav .logo {
+        font-size: 1.6em !important;
+    }
+    
+    .next_part i {
+        position: static;
+    }
+    
+    .coop_container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .coop h1 {
+        margin: 0;
+    }
+    
+    a .child_coop_container {
+        width: 375px;
+        height: 350px;
+        /*zminić pole klikalne*/
+    }
+    
+    #coop_img1 {
+        width: 360px;
+        height: 80px;
+    }
+    
+    #coop_img2 {
+        width: 100px;
+        height: 106px;
+    }
+}
+
+/*zmniejszyć loga*/
+@media screen and (max-width: 1100px) {
+    .main_nav ul a {
+        margin: 0;
+        padding: 1.1em;
+        float: inherit;
+        width: 6em;
+        font-size: .9em;
+    }
+    
+    .main_nav ul {
+        margin: 0;
+    }
+    
+    nav .logo {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    ul.tabs {
+        padding: 0;
+    }
+    
+    ul.list-inline {
+        padding: 0;
+    }
+    /**/
+    
+    .about {
+        font-size: 1em;
+    }
+    
+    .about_container img {
+        margin: 0;
+        padding: 0;
+      /*  width: 320px;
+        height: 375px;
+        zmienić na em*/
+    }
+}
+@media screen and (max-width: 1023px) {
+    
+}
+/*@media screen and (max-width:1025px){
+    .about{
+        font-size: 1em;
+    }
+    .about_container img {
+    box-shadow: 1px 1px 3px rgba(100, 100, 100, 0.5);
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 350px;
+}
+}*/
+@media screen and (max-width: 880px) {
+    video {
+        display: none;
+    }
+    
+   
+    .about {
+        display: none;
+    }
+    
+    nav {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        position: static !important;
+    }
+    
+    nav .logo {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    nav .logo h4 {
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav .logo h6 {
+        align-self: center;
+        justify-content: center;
+    }
+    
+    nav ul {
+        margin: 0;
+        padding: 0;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    
+    nav ul li {
+        width: 100%;
+    }
+    
+    nav ul li a {
+        margin: 0;
+        padding: 1em 0 !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 2em;
+        border-bottom: 1px solid #fff;
+        width: 100% !important;
+        font-size: 1em;
+    }
+    
+    .galery {
+        margin: 0;
+    }
+    
+    .about_container p {
+        width: 90%;
+    }
+    
+    .child_coop_container {
+        margin: 0;
+    }
+    
+    a .child_coop_container {
+        margin: 2em 0 !important;
+        width: 320px;
+        /*zminić pole klikalne*/
+    }
+    
+    #coop_img1 {
+        width: 90%;
+        height: 80px;
+    }
+    
+    #coop_img2 {
+        width: 100px;
+        height: 106px;
+    }
+    
+    .contact .test_div {
+        border: 1px solid #fff;
+        width: 70%;
+        height: 500px;
+    }
+}
