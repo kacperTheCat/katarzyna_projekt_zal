@@ -1,0 +1,495 @@
+html {
+    background-color: #000;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    font-family: 'Amatica SC', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+#bg-video {
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+
+a#gototop {
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    position: fixed;
+    bottom: 5vh;
+    right: 1vw;
+    width: 2em;
+    height: 2em;
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+    z-index: 200;
+}
+
+
+/*a#gototop:hover {
+    background-color: rgba(242, 94, 68, .1);
+    cursor: pointer;
+    transition: .7s;
+    color: #ed5c01
+}*/
+
+nav {
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    color: #fff;
+    background-color: rgba(0, 0, 0, .7);
+    box-shadow: 0 0.125em 0.313em rgba(0, 0, 0, .7);
+    z-index: 100;
+    /*100 nh; na mobilkach*/
+}
+
+nav ul li a {
+    margin-top: 2.4em;
+    padding: 1em;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav .logo {
+    padding: .6em .7em .7em .9em;
+    display: flex;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Amatica SC';
+    text-transform: uppercase;
+}
+
+nav .logo h3 {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav .logo h6 {
+    margin: 0;
+    align-self: flex-end;
+    font-weight: 100;
+    font-size: .5em;
+    /*   margin-bottom: .5em;*/
+}
+
+nav .logo h6 .upper {
+    font-size: 1.4em;
+}
+
+nav .main_nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav .main_nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    /*justify-content: center;*/
+    align-items: center;
+    list-style: none;
+    height: 100%;
+}
+
+nav .main_nav ul li {
+    list-style: none;
+}
+
+
+/*.main_nav ul a:hover {
+    color: #ed5c01;
+    roboczo
+    cursor: pointer;
+    transition: .7s;
+}*/
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    /* z-index: 0;*/
+    background-color: transparent;
+    color: #fff;
+}
+
+.about .text {
+    width: 40%;
+    position: fixed;
+    top: 30%;
+    left: 30%;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Amatica SC', cursive;
+    /* position: fixed;
+    top: 25%;
+    left: 37%;*/
+    /*  
+    z-index: -500;*/
+}
+
+.about h4 {
+    text-align: right;
+    font-size: 2em;
+    /*position: fixed;*/
+    /*
+    top: 58%;
+    left: 37%;
+    width: 25%;*/
+    /* z-index: -500;*/
+    font-family: 'Amatica SC', cursive;
+}
+
+
+/*sekcje nieprzyczepione*/
+
+
+/*Galeria*/
+
+.galery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+    background-color: #000;
+}
+
+.tabs {
+    margin-top: 3em;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galery_btn {
+    margin: 0 1em 1em 1em;
+    padding: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 130px;
+    height: 50px;
+    text-align: center;
+    border: solid 1px #fff;
+    border-bottom: 2px solid #fff;
+    border-right: 2px solid #fff;
+    border-radius: 2px;
+    box-shadow: 2px 2px 3px rgba(100, 100, 100, 0.7);
+    font-weight: 300;
+}
+
+.galery_btn:hover {
+    background-color: rgba(242, 94, 68, .1);
+    /* cursor: pointer;
+    transition: .7s;
+    color: #ed5c01;*/
+}
+
+li.galery_btn.active {
+    border: 1px solid #ed5c01;
+    background-color: rgba(250, 250, 250, .02);
+    color: #ed5c01;
+    box-shadow: none;
+}
+
+
+/*panele galeri                                    0------------------------------*/
+
+.galery .panel.active {
+    display: flex !important;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.galery .panel {
+    display: none;
+}
+
+.galery .panel img {
+    height: 100%;
+    margin: 1em;
+    /*    border: solid 0.063em #fff;
+    border-bottom: 0.125em solid #fff;
+    border-right: 0.125em solid #fff;
+    border-radius: 0.313em;*/
+    box-shadow: 0.125em 0.125em 0.08em rgba(100, 100, 100, 0.7);
+    transition: .7s;
+}
+
+.galery .panel img:hover {
+    cursor: pointer;
+}
+
+.galery .panel ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*O mnie--------------------------------------*/
+
+.about_me {
+    display: flex;
+    align-items: center;
+    align-content: center;
+   justify-content: space-around;
+    flex-direction: column;
+}
+
+.about_container {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.about_container img {
+    margin: 0;
+    padding: 0;
+    width: 348px;
+    height: 482px;
+}
+
+.about_container p {
+    margin: 0;
+    padding: 3.5em 0 0 2em;
+    width: 35%;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+
+/*partnerzy------------------------------------------------------*/
+
+.coop {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.coop a {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    text-decoration: none;
+}
+
+.coop_container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+a .child_coop_container {
+    margin: 0 4em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 28.125em;
+    height: 25em;
+    border: 1px solid #fff;
+    /*zminić pole klikalne*/
+}
+
+.coop h1 {
+    /*margin-top: 2em;*/
+}
+
+
+/*Contact---------------------------------------------*/
+
+.contact {
+    display: flex;
+    flex-direction: column;
+     justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+.contact .contact_info {
+    /* border: 1px solid #fff;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 480px;
+    height: 480px;
+    font-size: 3em;
+    transition: 1s;
+}
+
+.contact .contact_info:hover {
+    letter-spacing: 2px;
+    transition: 1s;
+}
+
+
+/*footer---------------------------------------------------------------*/
+
+footer {
+    color: rgba(100, 100, 100, .5);
+    text-align: center;
+    font-size: .5em;
+    background-color: #000;
+}
+
+footer a {
+    color: rgba(100, 100, 100, .5);
+    text-decoration: none;
+}
+
+
+/*ładowanie strony...*/
+
+
+/*klasy globalne*/
+
+.next_part i {
+    padding: .5em;
+    position: absolute;
+    top: 70%;
+    left: 1650px;
+    color: #fff;
+    font-size: 3em;
+}
+
+
+/*
+.next_part i:hover,
+.down_page:hover {
+    transition: .7s;
+    color: #ed5c01;
+    cursor: pointer;
+}
+*/
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+justify-content: space-between;
+    align-items: stretch;
+    min-height: 100vh;
+    /*zmienić, taka wartość tylko dla komputerów*/
+    min-width: 100%;
+    position: relative;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4em;
+    font-family: 'Amatica SC', cursive;
+    color: #fff;
+}
+
+.orange_hover,
+.next_part i,
+.galery_btn,
+nav .main_nav ul li,
+.down_page {
+    cursor: pointer;
+    transition: .7s;
+}
+
+.child_coop_container:hover .orange_hover {
+    transition: .7s;
+    color: #ed5c01;
+    letter-spacing: 0.063em;
+}
+
+
+/* guziki */
+
+.next_part i {
+    color: #fff;
+    font-size: 3em;
+    padding: .5em;
+    position: absolute;
+    top: 54vh;
+    /*albo %*/
+    left: 78vw;
+}
+
+.galery_btn:hover,
+.next_part i:hover,
+.down_page:hover,
+.main_nav ul a:hover,
+a#gototop:hover,
+.next_part i:hover,
+.down_page:hover,
+a i.down_section:hover {
+    transition: .7s;
+    color: #ed5c01;
+    cursor: pointer;
+}
+
+.down_page {
+    position: fixed;
+    top: 88vh;
+    right: 48.5vw;
+}
+
+i.down_page,
+a i.down_section {
+    font-size: 3em;
+}
+
+a i.down_page,
+a i.down_section {
+    color: #fff;
+    text-decoration: none;
+}
+
+.highlight {
+    color: #ed5c01;
+}
+
+.non_hide_mobile_text {
+    display: none;
+    font-size: 1.5em;
+}
+
+.lb-caption {
+    font-size: 1em !important;
+}
